@@ -3,7 +3,7 @@
   "_FontManager__default_weight": "normal",
   "default_size": null,
   "defaultFamily": {
-    "ttf": "DejaVu Sans",
+    "ttf": "Leelawadee UI",
     "afm": "Helvetica"
   },
   "afmlist": [
@@ -992,6 +992,16 @@
     {
       "fname": "fonts/ttf/Humor-Sans.ttf",
       "name": "Humor Sans",
+      "style": "normal",
+      "variant": "normal",
+      "weight": 400,
+      "stretch": "normal",
+      "size": "scalable",
+      "__class__": "FontEntry"
+    },
+    {
+      "fname": "fonts/ttf/LeelawUI.ttf",
+      "name": "Leelawadee UI",
       "style": "normal",
       "variant": "normal",
       "weight": 400,

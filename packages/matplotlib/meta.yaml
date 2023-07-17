@@ -10,9 +10,10 @@ package:
 source:
   # url: https://files.pythonhosted.org/packages/2f/be/7d6e073a3eb740ebeba43a69f5de2b141fea50b801e24e0ae024ac94d4ac/matplotlib-3.5.2.tar.gz
   # sha256: 48cf850ce14fa18067f2d9e0d646763681948487a8080ec0af2686468b4607a2
-  url: https://rkong.duckdns.org/jpylite/matplotlib-3.5.2.tar.gz
-  sha256: 2ef566707134821ce856be254ddf7802cae5169a5e70db5379c6ec978e014852
-  
+  # url: https://rkong.duckdns.org/jpylite/matplotlib-3.5.2.tar.gz
+  url: file:///src/packages/matplotlib/matplotlib-3.5.2.tar.gz
+  sha256: d6a1f153ab28479970179e7625bc285dd031d9bc8c659da904b49083a9dc5823
+
   patches:
     - patches/disable_macosx_backend.patch
     - patches/hardcoded-font-cache.patch
